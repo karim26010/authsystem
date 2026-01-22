@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Django ---
+db.sqlite3
+db.sqlite3-journal
+/static/
+/media/
+/staticfiles/
+local_settings.py
+*.log
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Dati Sensibili ---
+.env
+credentials.json
+*.pem
